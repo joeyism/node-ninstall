@@ -12,6 +12,13 @@ Do you always install the same npm modules on your project every time? ninstall 
 
 ## Usage
 
+[`New Configuration`](#new-configuration)
+- [`Input Installation Files`](#input-installation-files)
+- [`Saving Configuration`](#saving-configuration)
+[`Install from Saved Configuration`](#install-from-saved-configuration)
+- [`Select Previous Configuration`](#select-previous-configuration) 
+- [`Install from Commandline`](#install-from-commandline)
+
 ### New Configuration
 
 #### Input Installation Files
@@ -48,10 +55,10 @@ The name you input for the configuration will be the one you refer to if you wan
 
 **For Example:** If your configuration is name `testConfig01`, then running `ninstall testConfig0` next time will install the same modules and development modules you installed this time.
 
-### Installation from Saved Configuration
+### Install from Saved Configuration
 If you have ran `ninstall new` previously and saved the configuration, then can use these configurations to install onto new node projects. This is handy when you create multiple types of node modules, but many of them share similar node modules. That way, you can `ninstall` it once, save the configuration, then run it again so you can install the same modules on a new module.
 
-#### Selecting Previous Config
+#### Select Previous Configuration
 To run from a saved configuration, you can run 
 
     > ninstall
@@ -62,7 +69,7 @@ and you will be prompted to select a list of configurations that you have previo
     ❯ normalNpm
       npmServer
 
-#### Input Previous Configuration Name
+#### Install from Commandline
 If you know the previous configuration name, you can run
 
     > ninstall [config name]
