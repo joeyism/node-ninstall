@@ -22,7 +22,13 @@
     "custom",
     "cli",
     "same",
-    "again"
+    "again",
+    "save",
+    "save-dev",
+    "dev",
+    "development",
+    "configuration",
+    "ninstall"
   ],
   "author": "Joey Sham <sham.joey@gmail.com> (http://www.joeyism.com)",
   "license": "ISC",
