@@ -15,6 +15,7 @@ Do you always install the same npm modules on your project every time? ninstall 
 [`New Configuration`](#new-configuration)
 - [`Input Installation Files`](#input-installation-files)
 - [`Saving Configuration`](#saving-configuration)
+
 [`Install from Saved Configuration`](#install-from-saved-configuration)
 - [`Select Previous Configuration`](#select-previous-configuration) 
 - [`Install from Commandline`](#install-from-commandline)

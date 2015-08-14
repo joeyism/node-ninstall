@@ -78,7 +78,7 @@ describe("configJson", function(){
             configJson = require(pathToConfigJson);
 
             configJson.loadKeys().catch(function(error){
-                expect(error).to.equal("You have not saved any previous configuration");
+                expect(error).to.equal("You have not saved any previous configuration. If you want to save configurations, run 'ninstall new'");
                 done();
             });
         });
