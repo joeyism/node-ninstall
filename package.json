@@ -1,10 +1,13 @@
 {
   "name": "ninstall",
   "version": "1.0.0",
-  "description": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha",
+  "description": "A CLI tool to install the same npm modules that you always install",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha"
+  },
+  "bin":{
+    "ninstall": "index.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +29,23 @@
   "bugs": {
     "url": "https://github.com/joeyism/node-ninstall/issues"
   },
-  "homepage": "https://github.com/joeyism/node-ninstall#readme"
+  "homepage": "https://github.com/joeyism/node-ninstall#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "copy": "^0.1.1",
+    "inquirer": "^0.9.0",
+    "jsondata": "^1.0.0",
+    "merge": "^1.2.0",
+    "npm-save": "^1.0.0",
+    "q": "^1.4.1",
+    "rimraf": "^2.4.2",
+    "xcept": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "cp": "^0.2.0",
+    "istanbul": "^0.3.17",
+    "mkdirp": "^0.5.1",
+    "mocha": "^2.2.5"
+  }
 }
