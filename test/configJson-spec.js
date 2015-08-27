@@ -125,7 +125,7 @@ describe("configJson", function(){
             configJson = require(pathToConfigJson);
             
             configJson.save({}, "key").then(function(result){
-                expect(result).to.be.undefined;
+                expect(result).to.equal("  key saved");
                 done();
             });
         });
