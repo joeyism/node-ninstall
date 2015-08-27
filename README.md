@@ -21,7 +21,7 @@ Do you always install the same npm modules on your project every time? ninstall 
 - [`Install from Commandline`](#install-from-commandline)
 
 ### Setup
-In order for `ninstall` to work, your home directory must be setup. `ninstall` will place your configuration file in your `$HOME`/`%HOME%``/.configJson.json`
+In order for `ninstall` to work, your home directory must be setup. `ninstall` will place your configuration file in your `$HOME`/`%HOME%``/.savedConfig.json`
 
 ### New Installation
 
