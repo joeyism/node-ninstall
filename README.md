@@ -12,17 +12,20 @@ Do you always install the same npm modules on your project every time? ninstall 
 
 ## Usage
 
-[`New Configuration`](#new-configuration)
-- [`Input Installation Files`](#input-installation-files)
+[`New Installation`](#new-installation)
+- [`Input Files`](#input-files)
 - [`Saving Configuration`](#saving-configuration)
 
 [`Install from Saved Configuration`](#install-from-saved-configuration)
 - [`Select Previous Configuration`](#select-previous-configuration) 
 - [`Install from Commandline`](#install-from-commandline)
 
-### New Configuration
+### Setup
+In order for `ninstall` to work, your home directory must be setup. `ninstall` will place your configuration file in your `$HOME`/`%HOME%``/.configJson.json`
 
-#### Input Installation Files
+### New Installation
+
+#### Input Files
 When running to install for the first time, or to get a new configuration, run
 
     > ninstall new
@@ -80,5 +83,8 @@ If you know the previous configuration name, you can run
     > ninstall normalNpm
 
 ## Version
+**1.1.0**
+* Modified configJson.json location to `HOME` directory
+
 **1.0.0**
 * First working publish
