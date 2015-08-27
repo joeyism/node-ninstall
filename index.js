@@ -18,7 +18,7 @@ if (params[2] === "new"){
 
     }).then(function(){
 
-        return configJson.loadKeys();
+        return configJson.loadKeys({new: true});
 
     }).then(function(){
 
@@ -28,6 +28,10 @@ if (params[2] === "new"){
 
         return configJson.save(answers, result);
 
+    }).then(function(result){
+    
+        console.log(result.green.bold);
+    
     }).catch(function(err){
 
         console.log(err.toString().red);
